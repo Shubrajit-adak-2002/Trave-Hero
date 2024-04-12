@@ -1,0 +1,530 @@
+* {
+    margin: 0;
+    padding: px;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+}
+
+.width {
+    width: 50%;
+}
+
+:root {
+    --primary-color: #FF5400;
+    --text-sub: #5A5A5D;
+}
+
+header {
+    margin: 0 auto;
+}
+
+/* Navbar styling */
+nav {
+    margin-top: 50px;
+}
+
+nav .title,
+.other-info ul,
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.title h1 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+#home {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+#bars {
+    display: none;
+}
+
+.other-info .info-name {
+    list-style: none;
+    justify-content: space-around;
+    color: var(--text-sub);
+}
+
+/* navbar styling ends here */
+/* Banner styling starts here */
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('Images/Group\ 13\ \(1\)\ \(1\).png');
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+#find {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.banner-heading h1 {
+    padding-top: 106px;
+    font-size: 64px;
+    font-weight: 800;
+    color: white;
+}
+
+.banner-heading p {
+    padding-top: 24px;
+    color: white;
+    font-size: 18px;
+}
+
+.buttons {
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.btn-container {
+    background: rgba(255, 255, 255, 0.30);
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.buttons {
+    margin-top: 0;
+}
+
+.buttons button {
+    padding: 15px 30px;
+    color: rgba(19, 19, 24, 0.50);
+    background-color: #fff;
+    border: 0;
+    border-radius: 8px;
+    font-size: 17px;
+}
+
+/* Tour section */
+
+.tour {
+    margin: 0 auto;
+}
+
+.tour-carrier {
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+}
+
+.tour-text h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.tour-text p {
+    margin-top: 24px;
+    color: var(--text-sub);
+}
+
+.tour-image img {
+    width: 100%;
+}
+
+.tour-benefits {
+    margin-top: 24px;
+}
+
+.tour-benefits li {
+    padding-top: 16px;
+    color: var(--text-sub);
+}
+
+.tour-text button {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 14px 34px;
+    font-size: 17px;
+    font-weight: 800;
+    border: 0;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+/* Tour section ends here */
+/* Why choose us starts here */
+
+.destination {
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.destination h1 {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.destination p {
+    margin-top: 24px;
+    color: var(--text-sub);
+    text-align: center;
+}
+
+.destination-images {
+    margin-top: 50px;
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.row img {
+    width: 100%;
+}
+
+.sub-row {
+    position: relative;
+}
+
+.d-name p {
+    bottom: 130px;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+}
+
+.d-name1 p,
+.d-name2 p {
+    left: 200px;
+}
+
+.d-name3 p {
+    left: 120px;
+}
+
+.d-name4 p {
+    left: 130px;
+}
+
+.d-name5 p {
+    left: 70px;
+}
+
+.d-name6 p {
+    left: 150px;
+}
+
+.d-name7 p {
+    left: 250px;
+}
+
+.deals {
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.deals h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.deals p {
+    color: var(--text-sub);
+    margin-top: 24px;
+}
+
+.profit {
+    width: 500px;
+}
+
+.profit h3 {
+    font-weight: 800;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.advantages {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.p-1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+}
+
+.p-2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px;
+}
+
+.p-3 {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 32px;
+}
+
+/* Why choose ends here */
+/* Destination section starts here */
+
+.offers {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.offers p {
+    color: var(--text-sub);
+}
+
+.discounts {
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 16px;
+}
+
+.d-1 {
+    background-image: url('Images/Group\ 39.png');
+}
+
+.d-2 {
+    background-image: url('Images/Group\ 40.png');
+    /* justify-content: flex-start; */
+}
+
+.d-3 {
+    background-image: url('Images/Group\ 39.png');
+}
+
+.h-card,
+.items {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.h-container {
+    width: 550px;
+}
+
+#d-card {
+    width: 1050px;
+}
+
+.hotel-card {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 500px;
+    padding: 50px;
+    color: var(--text-sub);
+}
+
+.hotel-card h3,
+p,
+button {
+    margin-top: 10px;
+}
+
+.hotel-card p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.hotel-card h3 {
+    color: var(--primary-color);
+    font-weight: 800;
+}
+
+.hotel-card button {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #FFF;
+    background-color: var(--primary-color);
+    border: 0;
+    border-radius: 8px;
+}
+
+.packages {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.packages button {
+    background-color: var(--primary-color);
+    padding: 15px 30px;
+    border: 0;
+    font-size: 17px;
+    font-weight: 800;
+    border-radius: 8px;
+    color: #FFF;
+}
+
+/* Destination section ends here */
+/* Mountain section starts here */
+
+.mountain {
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    gap: 30px;
+}
+
+.mountain-text h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.mountain-text p {
+    color: var(--text-sub);
+    margin-bottom: 5px;
+}
+
+.mountain-image {
+    position: relative;
+}
+
+.mountain-image p {
+    position: absolute;
+    bottom: 200px;
+    left: 100px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.mountain-text button {
+    background-color: var(--primary-color);
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+/* Mountain section ends here
+ Newsletter starts from here */
+
+.newsletter {
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    gap: 25px;
+}
+
+.newsletter-box {
+    border-radius: 16px;
+    border: 1px solid var(--primary-color);
+    padding: 45px;
+}
+
+.newsletter-box .info-sec {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter-box h4 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.info-sec input {
+    margin-bottom: 16px;
+    border-radius: 8px;
+    border: 0;
+    padding: 16px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: rgba(19, 19, 24, 0.05);
+}
+
+.info-sec [type=button] {
+    background-color: var(--primary-color);
+    color: #FFF;
+    font-weight: 800;
+}
+
+.travel-image{
+    position: relative;
+}
+
+.travel-image .discount{
+    background-color: var(--primary-color);
+    padding: 20px;
+    border-radius: 8px;
+    color: #FFF;
+    width: 250px;
+    position: absolute;
+    left: 410px;
+    bottom: 39px;
+    text-align: center;
+}
+
+.discount{
+    transform: rotate(-15deg);
+}
+/* Newsletter section ends here */
+/* footer starts from here */
+
+footer{
+    margin-top: 100px;
+    background-color: rgba(19, 19, 24, 0.05);
+}
+
+.f-container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.f-banner{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.f-container p{
+    text-align: center;
+    margin-top: 15px;
+    color: var(--text-sub);
+}
+
+.social-handles{
+    margin-top: 22px;
+    display: flex;
+    gap: 34px;
+    font-size: 20px;
+}

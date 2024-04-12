@@ -1,0 +1,107 @@
+@media screen and (max-width:576px) {
+    .info-name li{
+        display: none;
+    }
+    #bars{
+        display: block;
+        font-size: 24px;
+        top: 2px;
+        margin-left: 150px;
+    }
+    .banner-heading h1{
+        padding-top: 10px;
+        font-size: 30px;
+    }
+    .banner-heading p{
+        padding-top: 5px;
+        font-size: 16px;
+    }
+    .buttons{
+        flex-direction: column;
+    }
+    .btn-container{
+        top: 5px;
+    }
+    .tour-carrier{
+        flex-direction: column;
+    }
+    .tour-text{
+        width: 100%;
+    }
+    .tour-image{
+        width: 100%;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .sub-row img{
+        width: 360px;
+        height: 174px;
+    }
+    .d-name1 p, .d-name2 p {
+        left: 120px;
+        top: 40px;
+    }
+    .d-name3 p{
+        left: 120px;
+        top: 40px;
+    }
+    .d-name4 p{
+        left: 70px;
+        top: 40px;
+    }
+    .d-name5 p{
+        left: 120px;
+        top: 40px;
+    }
+    .d-name6 p{
+        left: 100px;
+        top: 40px;
+    }
+    .d-name7 p{
+        left: 110px;
+        top: 40px;
+    }
+    .profit{
+        width: 350px;
+    }
+    .advantages{
+        flex-direction: column;
+    }
+    .hotel-card{
+        width: 330px;
+    }
+    .discounts{
+        justify-content: center;
+    }
+    .h-container{
+        width: auto;
+        margin-top: 70px;
+    }
+    #d-card{
+        width: auto;
+    }
+    .mountain{
+        flex-direction: column;
+    }
+    .mountain-image img{
+        width: 100%;
+    }
+    .mountain-image p{
+       left: 10px;
+       text-align: center;
+       bottom: 100px;
+    }
+    .newsletter{
+        flex-direction: column;
+    }
+    .travel-image{
+        width: auto;
+    }
+    .travel-image img{
+        width: 100%;
+    }
+    .travel-image .discount{
+        left: 100px;
+    }
+}
